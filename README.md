@@ -1,24 +1,12 @@
-# README
+# Example app Stimulus-Flatpickr Rails 6.1 / Stimulus 2.0
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting started
 
-Things you may want to cover:
+clone the repo
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+bundle
+yarn install
+rails db:create db:migrate
+rails s
+```
